@@ -14,10 +14,6 @@ export default function Hero() {
                     Discover More
                 </button>
             </div>
-            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce flex flex-col items-center">
-                <span className="text-white text-sm mb-2 tracking-widest uppercase shadow-black drop-shadow-lg">Scroll</span>
-                <div className="w-px h-12 bg-white/50" />
-            </div>
         </section>
     );
 }

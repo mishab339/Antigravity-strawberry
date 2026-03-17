@@ -1,0 +1,64 @@
+﻿
+> strawberry-showcase@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 23.7s
+  Running TypeScript ...
+node.exe : Failed to compile.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Fail 
+   ed to compile.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+.next/dev/types/validator.ts:25:44
+Type error: Type 'Route' does not satisfy the 
+constraint '"/"'.
+  Type 'LayoutRoutes' is not assignable to type 
+'"/"'.
+    Type '"/order"' is not assignable to type 
+'"/"'.
+
+[0m [90m 23 |[39m
+ [90m 24 |[39m type 
+[33mLayoutConfig[39m[33m<[39m[33mRoute[39m 
+[36mextends[39m [33mLayoutRoutes[39m 
+[33m=[39m [33mLayoutRoutes[39m[33m>[39m 
+[33m=[39m {
+[31m[1m>[22m[39m[90m 25 |[39m   
+[36mdefault[39m[33m:[39m [33mReact[39m[33m.
+[39m[33mComponentType[39m[33m<[39m[33mLayout
+Props[39m[33m<[39m[33mRoute[39m[33m>>[39m 
+[33m|[39m ((props[33m:[39m [33mLayoutProps[3
+9m[33m<[39m[33mRoute[39m[33m>[39m) 
+[33m=>[39m 
+[33mReact[39m[33m.[39m[33mReactNode[39m 
+[33m|[39m [33mPromise[39m[33m<[39m[33mReact
+[39m[33m.[39m[33mReactNode[39m[33m>[39m 
+[33m|[39m never [33m|[39m [36mvoid[39m 
+[33m|[39m [33mPromise[39m[33m<[39m[36mvoid
+[39m[33m>[39m)
+ [90m    |[39m                                  
+          [31m[1m^[22m[39m
+ [90m 26 |[39m   
+generateStaticParams[33m?[39m[33m:[39m 
+(props[33m:[39m { params[33m:[39m 
+[33mParamMap[39m[[33mRoute[39m] }) 
+[33m=>[39m [33mPromise[39m[33m<[39m[33many
+[39m[][33m>[39m [33m|[39m any[]
+ [90m 27 |[39m   
+generateMetadata[33m?[39m[33m:[39m (
+ [90m 28 |[39m     props[33m:[39m { 
+params[33m:[39m [33mPromise[39m[33m<[39m[33
+mParamMap[39m[[33mRoute[39m][33m>[39m } 
+[33m&[39m any[33m,[39m[0m
+Next.js build worker exited with code: 1 and 
+signal: null
